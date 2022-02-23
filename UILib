@@ -14,6 +14,9 @@ function library:CreateWindow()
 	Frame.BorderSizePixel = 0
 	Frame.Position = UDim2.new(0.0958005264, 0, 0.115749523, 0)
 	Frame.Size = UDim2.new(0, 515, 0, 362)
+	Frame.Active = true
+	Frame.Draggable = true
+	
 	
 	TextLabel.Parent = Frame
 	TextLabel.Active = true
@@ -26,7 +29,6 @@ function library:CreateWindow()
 	TextLabel.TextSize = 11.000
 	TextLabel.TextTransparency = 0.390
 	TextLabel.TextWrapped = true
-	TextLabel.Draggable = true
 	
 	local GamerLibrary = {}
 	
