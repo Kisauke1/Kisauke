@@ -26,6 +26,7 @@ function library:CreateWindow()
 	TextLabel.TextSize = 11.000
 	TextLabel.TextTransparency = 0.390
 	TextLabel.TextWrapped = true
+	TextLabel.Draggable = true
 	
 	local GamerLibrary = {}
 	
