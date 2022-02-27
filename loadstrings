@@ -1,1 +1,2 @@
 
+1. loadstring(game:HttpGet("https://raw.githubusercontent.com/Kisauke1/Kisauke/main/Spa"))()
